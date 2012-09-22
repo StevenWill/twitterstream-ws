@@ -1,9 +1,9 @@
 //
 // stream via websockets with ntwitter and socket.io
 //
-var io = require('socket.io').listen(8888);
-var uri = 'statuses/filter';
-var twitter = require('ntwitter');
+var io = require('socket.io').listen(8888)
+  , twitter = require('ntwitter')
+  , uri = 'statuses/filter';
 
 io.sockets.on('connection',function(socket){
   socket.on('disconnect',function(){
