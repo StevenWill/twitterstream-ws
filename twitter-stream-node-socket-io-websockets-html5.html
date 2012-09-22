@@ -44,14 +44,12 @@ var twit = new twitter({
   access_token_secret: 'secret'
 });
 
-twit.stream(uri, {
-  track:'#dizorg,submarino,lojas americanas,nas americanas,na americanas,canal shoptime,shoptime,b2w'},
-  //locations:['-15.778, -47.923 '] },
+twit.stream(uri, {track:'#dizorg,ufc,ufc152'},
   function(stream) {
     stream.on('data', function (data) {
       console.log(data);
       io.sockets.emit('news',data)
-    });
+  });
 });
 	</pre>
 </div>
