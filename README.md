@@ -3,7 +3,7 @@ twitterstream-ws
 
 Twitter streaming with socket.io and ntwitter
 
-After reading a lot about node.js and trying some simple apps, I've stumbled upon the great http://www.catonmat.net/blog/nodejs-modules-ntwitter[1] series.
+After reading a lot about node.js and trying some simple apps, I've stumbled upon the great [1]:http://www.catonmat.net/blog/nodejs-modules-ntwitter series.
 
 From there, I've set up to write a twitter stream client, first, with the request module (see[1]), then with the ntwitter module.
 
