@@ -12,10 +12,10 @@ io.sockets.on('connection',function(socket){
 });
 
 var twit = new twitter({
-  consumer_key: 'LS9t2mvBxKDnQ0xRqLugeQ',
-  consumer_secret: '9CTySTlLnuu14ybs03kHJMVKSf8fedLXW8Yw2XSq0',
-  access_token_key: '147371500-bDMwQMxXktV13E85y6Or9uagTzq4GHbxXsMiEbu3',
-  access_token_secret: '3Bk9iliOFD0bOYiCjiigeVMUN5cxYABrmoPEZqgOOo'
+  consumer_key: 'key',
+  consumer_secret: 'secret',
+  access_token_key: 'key',
+  access_token_secret: 'secret'
 });
 
 twit.stream(uri, {
