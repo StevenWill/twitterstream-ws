@@ -11,4 +11,4 @@ To glue the previous step with websockets, I've based on https://github.com/andr
 
 Word of advice: This sample code is meant only for learning new stuff, it's not production ready.
 
-demo: www.dizorg.net
+demo: www.dizorg.net/twitterstream-node-socket-io-websockets-html5.html
